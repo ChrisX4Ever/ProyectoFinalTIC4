@@ -1,4 +1,7 @@
 # Detección de EPP en Tiempo Real con YOLO ONNX y Raspberry Pi 4B
+Trabajo Final de TIC 4  
+Nuestro tema es Proyecto 2: Monitoreo de ocupación y conducta insegura en laboratorio o taller  
+Integrantes: Pedro Nuñez Moraga, Christian Silva Pinilla  
 
 Este repositorio contiene el sistema de inspección y validación automatizada de **Equipos de Protección Personal (EPP)** optimizado para ejecutarse en el borde (*Edge AI*) utilizando una **Raspberry Pi 4B** y el módulo de cámara **ArduCam IMX708**.
 
@@ -6,7 +9,7 @@ El modelo está diseñado y entrenado para detectar específicamente los siguien
 *   **Casco Blanco**
 *   **Antiparras**
 *   **Guantes de Seguridad**
-*   **Chaqueta Reflectante**
+*   **Bata/Delantal**
 
 Además, el software incluye la lógica algorítmica encargada de comprobar si los elementos de protección se encuentran posicionados correctamente sobre la **Persona** detectada, notificando en tiempo real si el equipo está completo o indicando con precisión cuáles componentes faltan.
 
@@ -27,10 +30,9 @@ Sigue estos pasos en la terminal de tu Raspberry Pi para clonar el repositorio, 
 ### 1. Clonar el Repositorio
 Para descargar el script principal `detector_epp.py`, el modelo optimizado `best.onnx` y la documentación asociada, ejecuta:
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+git clone https://github.com/ChrisX4Ever/ProyectoFinalTIC4.git
+cd ProyectoFinalTIC4
 ```
-*(Nota: Asegúrate de reemplazar `TU_USUARIO` y `TU_REPOSITORIO` con el enlace real de tu cuenta de GitHub).*
 
 ### 2. Actualizar el Sistema e Instalar Librerías Base
 Es necesario asegurar la presencia de las herramientas de compilación y las librerías compartidas que OpenCV requiere para el procesamiento de imágenes en entornos Linux:
