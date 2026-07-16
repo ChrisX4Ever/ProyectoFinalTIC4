@@ -1,7 +1,10 @@
 # Detección de EPP en Tiempo Real con YOLO ONNX y Raspberry Pi 4B
 Trabajo Final de TIC 4  
 Nuestro tema es Proyecto 2: Monitoreo de ocupación y conducta insegura en laboratorio o taller  
-Integrantes: Pedro Nuñez Moraga, Christian Silva Pinilla  
+Integrantes:  
+*   **Pedro Nuñez Moraga**
+*   **Christian Silva Pinilla**    
+[Video Explicativo](https://www.youtube.com/watch?v=cPu4cDjBeb4)  
 
 Este repositorio contiene el sistema de inspección y validación automatizada de **Equipos de Protección Personal (EPP)** optimizado para ejecutarse en el borde (*Edge AI*) utilizando una **Raspberry Pi 4B** y el módulo de cámara **ArduCam IMX708**.
 
