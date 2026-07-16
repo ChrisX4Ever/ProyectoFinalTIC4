@@ -11,7 +11,6 @@ Este repositorio contiene el sistema de inspección y validación automatizada d
 El modelo está diseñado y entrenado para detectar específicamente los siguientes elementos críticos de seguridad:
 *   **Casco Blanco**
 *   **Antiparras**
-*   **Guantes de Seguridad**
 *   **Bata/Delantal**
 
 Además, el software incluye la lógica algorítmica encargada de comprobar si los elementos de protección se encuentran posicionados correctamente sobre la **Persona** detectada, notificando en tiempo real si el equipo está completo o indicando con precisión cuáles componentes faltan.
